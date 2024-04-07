@@ -1,0 +1,14 @@
+.list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+.emptyMessage {
+  margin-top: 70px;
+  color: rgb(2, 55, 17);
+  font-weight: 500;
+}

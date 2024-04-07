@@ -1,0 +1,45 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  list-style: none;
+  width: 350px;
+  border-radius: 5px;
+  background-color: #99ef9c;
+  box-shadow: 3px 3px 6px -1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 3px 3px 6px -1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 3px 3px 6px -1px rgba(0, 0, 0, 0.47);
+  transition: scale 50ms;
+}
+
+.contact_wrp {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list_item:hover,
+.list_item:focus {
+  scale: 1.02;
+  font-weight: 500;
+}
+
+.button_delete {
+  cursor: pointer;
+  border: 2px solid rgb(238, 111, 111);
+  border-radius: 5px;
+  background-color: rgb(238, 111, 111);
+  padding-top: 2px;
+}
+
+.button_delete:hover,
+.button_delete:focus {
+  cursor: pointer;
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
